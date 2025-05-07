@@ -1,0 +1,72 @@
+:root{
+    --darkBrown: rgb(45,23,26);
+    --lightBrown: rgb(86,31,24);
+    --darkRed:rgb(190,31,61);
+    --mediumRed: rgb(223,28,42);
+    --lightRed:rgb(242,71,80);
+    --white:rgb(249, 246, 245);
+    --bs-primary: var(--lightRed);
+}
+
+.cofeePartyLogo{
+    height:70px;
+    width:70px;
+    background-image: url('../img/cofee\ icon.svg');
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+body{
+    padding-top: 3rem;
+    background-image:url(../img/pattern-with-cofee-grain-1525210602.jpg);
+    background-size: 100%;
+}
+body:before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255,255,255,0.7);
+    z-index: -1;
+}
+
+.pic1{
+    background-image: url('../img/cofee1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.pic2{
+    background-image: url('../img/cofee2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.pic3{
+    background-image: url('../img/cofee3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.pic4{
+    background-image: url('../img/cofee4.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.headQuarters{
+    background-image: url('../img/head\ quarters.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
